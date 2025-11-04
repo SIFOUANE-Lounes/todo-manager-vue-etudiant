@@ -1,0 +1,13 @@
+:root{ --bg:#0f172a; --panel:#111827; --muted:#9ca3af; --text:#e5e7eb; --brand:#42b883; --danger:#ef4444; }
+*{box-sizing:border-box} html,body,#app{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Roboto,Arial; line-height:1.4}
+.container{max-width:860px;margin:40px auto;padding:0 16px}
+.panel{background:var(--panel);border:1px solid #1f2937;border-radius:12px;padding:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.input{flex:1;padding:10px;border-radius:10px;border:1px solid #374151;background:#0b1220;color:var(--text)}
+.select{padding:8px;border-radius:10px;border:1px solid #374151;background:#0b1220;color:var(--text)}
+.btn{padding:10px 12px;border-radius:10px;border:1px solid #1f2937;background:#0b1220;color:var(--text);cursor:pointer}
+.btn.primary{background:var(--brand);color:#0b1220;font-weight:600}
+.btn.danger{background:#1f0b0b;border-color:#7f1d1d;color:#fecaca}
+small.muted{color:var(--muted)} .error{color:var(--danger);margin-top:4px}
+hr.sep{border:none;border-top:1px solid #1f2937;margin:12px 0}
